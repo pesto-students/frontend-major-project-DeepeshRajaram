@@ -3,6 +3,11 @@
   src: url(./fonts/Simonetta-Regular.ttf);
 }
 
+@font-face {
+  font-family: Roboto;
+  src: url(./fonts/Roboto-Regular.ttf);
+}
+
 .App {
   text-align: center;
 }
