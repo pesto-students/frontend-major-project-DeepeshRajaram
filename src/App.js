@@ -10,13 +10,13 @@ function App() {
         <div className="headerBase">
           <div className="headerLogo">Shopping ON</div>
           <div className="searchBox">
-            <img src="../images/search.png" alt="search"></img> 
+            <img src="./images/search.png" alt="search"></img> 
             <input type="text" />
           </div>
           <div className="topRightIcon">
-            <img src="../images/login.png" alt="Login"></img>
-            <img src="../images/signup.png" alt="Login"></img>
-            <img src="../images/globe1.png" alt="Login"></img>
+            <img src="./images/login.png" alt="Login"></img>
+            <img src="./images/signup.png" alt="Login"></img>
+            <img src="./images/globe1.png" alt="Login"></img>
           </div>
           
         </div>
