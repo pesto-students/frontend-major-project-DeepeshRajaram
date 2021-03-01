@@ -3,7 +3,7 @@ import './App.css';
 function App() {
   return (
     <div>
-      <header>
+      {/* <header> */}
         <div className="offerHeader">
           Use SHOPPINGON25 to get 25% off on your cart
         </div>
@@ -20,7 +20,7 @@ function App() {
           </div>
           
         </div>
-      </header>
+      {/* </header> */}
       <div className="mainbanner">
         <div>
             <hr className="line"/>
