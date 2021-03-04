@@ -1,0 +1,264 @@
+.offerHeader {
+  background-color: #ffdc65;
+  color: #d12222;
+  height: 1.5rem;
+  text-align: center;
+  font-family: Roboto;
+}
+
+.headerBase {
+  background-color: #d3d3d3;
+  opacity: 0.75;
+  height: 3rem;
+}
+
+.headerLogo {
+  color: #212221;
+  font-size: 2rem;
+  font-family: Simonetta;
+  float: left;
+  margin-left: 2rem;
+  margin-top: 0.1rem;
+  margin-right: 15%;
+}
+
+.searchBox {
+  position: relative;
+  float: left;
+  margin-top: 0.5rem;
+  width: 40%;
+  height: 65%;
+  align-items: flex-start;
+}
+
+.searchBox input {
+  border-radius: 5px;
+  box-sizing: border-box;
+  display: block;
+  width: 90%;
+  height: 100%;
+}
+
+.searchBox img {
+  position: absolute;
+  size: inherit;
+  width: 25px;
+  height: 25px;
+  top: 4px;
+}
+
+.topRightIcon {
+  float: right;
+  margin-top: 0.5rem;
+}
+.topRightIcon img {
+  width: 30px;
+  height: 30px;
+  margin-right: 2rem;
+}
+
+.mainbanner {
+  height: 20rem;
+  background-color: #d3d3d3;
+  opacity: 0.75;
+}
+.mainbannerLeftDiv {
+  float: left;
+}
+.mainbannerLeftDiv p {
+  margin-left: 40%;
+}
+
+.mainbannerBtnOuterDiv {
+  margin-left: 40%;
+}
+
+.mainbannerBtninnerLeftDiv {
+  display: inline-block;
+}
+.mainbannerBtninnerRightDiv {
+  display: inline-block;
+  margin-left: 1rem;
+}
+.mainBannerbigText {
+  font-family: Simonetta;
+  font-size: 3rem;
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+}
+
+.mainbannerSmallText {
+  font-family: Roboto;
+  font-size: 1rem;
+}
+
+.mainbannerRightDiv {
+  float: right;
+  padding-right: 10%;
+}
+
+.mainbanner img {
+  float: left;
+  height: 20rem;
+  image-rendering: pixelated;
+}
+
+.button {
+  background-color: #646464;
+  border: none;
+  color: blanchedalmond;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1rem;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #ffffff;
+  border: none;
+  color: #5c5f58;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1rem;
+  margin: 4px 2px;
+  cursor: pointer;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  transition: 0.8s;
+}
+
+.line {
+  width: 95%;
+  border-top: 1px solid #808080;
+  border-bottom: 0px solid #808080;
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+  background-color: #5c5f58;
+}
+
+.featureDisplay {
+  height: 3rem;
+  align-items: center;
+  margin: 1rem 0 1rem 0;
+}
+
+.featureDisplay div {
+  float: left;
+  align-items: center;
+  margin-left: 10rem;
+  text-align: center;
+  display: flex;
+}
+
+.featureDisplay div img {
+  height: 3rem;
+}
+
+.featureDisplay div span {
+  font-family: Simonetta;
+  font-size: 1rem;
+}
+
+.productHighlight {
+  width: 100%;
+  align-items: center;
+  text-align: center;
+  margin: 1rem 0 1rem 0;
+}
+
+.productHighlight span {
+  font-family: Simonetta;
+  font-size: 2rem;
+}
+.productCategoryHeader {
+  height: 1rem;
+  align-items: center;
+  margin: 1rem 35%;
+  text-align: center;
+}
+.productCategoryHeader a {
+  float: left;
+  font-family: Roboto;
+  font-size: 1rem;
+  margin-left: 1rem;
+  text-decoration: none;
+  color: #5c5f58;
+  padding-right: 0%;
+}
+
+.productCategoryHeader a:first-child {
+  font-family: Roboto;
+  font-size: 1rem;
+  margin-left: 1rem;
+  text-decoration: none;
+  color: #5c5f58;
+  font-weight: bold;
+}
+
+.productCategoryHeader a:hover {
+  font-family: Roboto;
+  font-size: 1rem;
+  margin-left: 1rem;
+  text-decoration: none;
+  color: #5c5f58;
+  font-weight: bold;
+}
+
+.productListRow::after {
+  content: '';
+  clear: both;
+  display: table;
+}
+
+.productListColumn {
+  float: left;
+  width: 20%;
+  padding-left: 11%;
+}
+
+.footer {
+  height: 1rem;
+  margin-top: 0.2rem;
+}
+
+.footerLeftDiv span {
+  float: left;
+  margin-left: 1rem;
+  padding-left: 1rem;
+  font-size: 0.8rem;
+  font-family: Roboto;
+}
+
+.footerCRDiv {
+  float: right;
+  text-align: center;
+  display: flex;
+  margin-right: 2rem;
+  font-size: 0.8rem;
+  font-family: Roboto;
+}
+
+.footerCRDiv img {
+  height: 0.9rem;
+}
+
+.termsDiv {
+  float: left;
+  margin-left: 2rem;
+}
+
+.termsDiv span {
+  padding-left: 1rem;
+}
+.termsDiv span:last-child {
+  padding-left: 0rem;
+}
+
+.innerProductCategoryLink {
+  margin: 10% 0;
+}
